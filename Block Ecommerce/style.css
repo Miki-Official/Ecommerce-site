@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    margin:0;
+    padding:0px;
+    padding-bottom:30px;
+    background:rgba(96, 144, 207, 0.644);
+    color:rgb(87, 115, 190);
+}
+header h2{
+    padding:40px;
+    font-size:100px;
+}
+header ul{
+    display:flex;
+    padding:10px;
+    font-size:18px;
+    font-weight:200;
+    justify-content: center;
+    list-style-type: none;
+    border-bottom:0.1rem solid rgb(83, 192, 106);
+    position: fixed;
+    top: 0%;
+    background: rgba(95, 126, 182, 0.445);
+    width: 100%;
+    z-index: 1;
+}
+header li{
+    margin:0px 40px;
+}
+header li a{
+    text-decoration: none;
+    color:white;
+}
+header a{
+    text-decoration: none;
+    color:white;
+}
+section h4{
+    font-family:"Metal Mania";
+    text-align:center;
+    padding:20px;
+    font-size:30px;
+}
+.gpu-container{
+    max-width:900px;
+    margin:0 auto;
+    padding:20px 30px;
+}
+#gpu-content{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+#gpu-content div{
+    margin: 50px;
+}
+#gpu-content div h4{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: aqua;
+    margin-bottom: 15px;
+}
+#gpu-content .product-detail{
+
+}
